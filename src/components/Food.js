@@ -2,7 +2,7 @@ import React,{ useContext } from 'react'
 import { res4 } from '../api/Apid'
 
 const Food = () => {
-  const [food, setFood] = useContext(res4)
+  const [food] = useContext(res4)
   console.log(food);
   return (
     <>

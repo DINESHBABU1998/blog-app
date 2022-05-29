@@ -2,7 +2,7 @@ import React,{ useContext } from 'react'
 import { res } from '../api/Apib'
 
 const Bollywood = () => {
-  const [bollywood,setBollywood] = useContext(res)
+  const [bollywood] = useContext(res)
   console.log(bollywood);
   return (
     <>

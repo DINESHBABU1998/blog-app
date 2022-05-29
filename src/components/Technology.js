@@ -2,7 +2,7 @@ import React,{ useContext } from 'react'
 import { res2 } from '../api/Apit'
 
 const Technology = () => {
-  const [technology, setTechnology]  = useContext(res2)
+  const [technology]  = useContext(res2)
   console.log(technology);
   return (
     <>

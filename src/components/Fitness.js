@@ -2,7 +2,7 @@ import React,{ useContext } from 'react'
 import { res3 } from '../api/Apif'
 
 const Fitness = () => {
-  const [fitness, setFitness] = useContext(res3)
+  const [fitness] = useContext(res3)
   console.log(fitness);
   return (
     <>
