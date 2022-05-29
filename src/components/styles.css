@@ -1,0 +1,34 @@
+*{
+    color: rgb(6, 76, 78);
+    background-color: white;
+    font-family: sans-serif;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+}
+.the{
+    font-size: 40px;
+    transform: rotate(90deg);
+}
+.siren{
+    font-size: 50px;
+}
+#navBar{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    height: 30vw;
+    width: 25vw;
+    margin: 2vw;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+.ima{
+    height: 200px;
+    width: 400px;
+}
